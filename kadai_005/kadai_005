@@ -1,0 +1,13 @@
+mkdir git_challenge
+cd git_challenge
+git init
+git add hello_world.txt
+git commit -m "1回目のコミット"
+git status
+git add .\hello_world.txt
+git status
+git commit -m "2回目のコミット"
+git log
+git log --oneline
+git commit --amend -m "日本語訳を追記"
+git log --oneline
